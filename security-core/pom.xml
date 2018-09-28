@@ -18,6 +18,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.liyang.security</groupId>
+                <artifactId>security</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-oauth2</artifactId>
             </dependency>
